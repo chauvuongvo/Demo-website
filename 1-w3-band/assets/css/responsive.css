@@ -1,0 +1,138 @@
+/* PC */
+@media (min-width: 1024px) {
+}
+
+/* Tablet and Mobile */
+@media (max-width: 1023px) {
+  .submit-btn {
+    padding: 16px;
+  }
+
+  #nav .sub-nav li {
+    height: 48px;
+  }
+
+  #contact .contact-info {
+    line-height: 2;
+  }
+  #contact .form-control {
+    font-size: 18px;
+    padding: 13px 10px;
+  }
+
+  #footer .footer-media a {
+    margin: 0 8px;
+    font-size: 48px;
+  }
+  #footer .copyright a {
+    display: inline-block;
+    padding: 15px 0;
+  }
+
+  #modal label {
+    font-size: 16px;
+  }
+  #modal .modal-input {
+    font-size: 16px;
+    padding: 14px 10px;
+  }
+  #modal .modal-btn {
+    font-size: 18px;
+    padding: 15px;
+  }
+  #modal .modal-footer {
+    font-size: 16px;
+  }
+  #modal .modal-footer a {
+    padding: 16px 0;
+  }
+  #modal .modal-close {
+    padding: 16px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* PC */
+@media (max-width: 739px) {
+  .s-width-full {
+    width: 100% !important;
+  }
+  .s-mt8 {
+    margin-top: 8px;
+  }
+  .s-mt16 {
+    margin-top: 16px;
+  }
+  #header .search-icon {
+    display: none;
+  }
+  #header .mobile-menu-icon {
+    display: block;
+  }
+  #header .search-btn:hover {
+    background-color: #ccc;
+  }
+  #header .search-btn:hover .mobile-menu-icon {
+    color: #000;
+  }
+
+  #nav {
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+  }
+
+  #nav li {
+    width: 100%;
+  }
+  #nav > li:first-child {
+    place-self: flex-start;
+    width: auto;
+    background-color: inherit;
+  }
+  #nav > li:first-child:hover > a {
+    color: #fff;
+  }
+  #nav .sub-nav {
+    background-color: #444;
+  }
+  #nav .sub-nav li a {
+    padding: 0 40px;
+    color: #fff;
+  }
+  #nav .sub-nav li:hover a {
+    color: #000;
+  }
+
+  #band .band-list {
+    flex-direction: column;
+  }
+  #band .band-member {
+    margin-top: 16px;
+  }
+  #band .band-member-img {
+    width: 60%;
+  }
+
+  #tour .place-list {
+    flex-direction: column;
+  }
+  #tour .place-item {
+    margin: 16px 0 0;
+  }
+  #tour .place-item:first-child {
+    margin-top: 0;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  #contact .contact-content,
+  #contact .contact-name-email {
+    flex-direction: column;
+  }
+}
