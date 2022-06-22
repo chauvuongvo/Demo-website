@@ -1,5 +1,8 @@
 /* PC */
 @media (min-width: 1024px) {
+  #header {
+    overflow: visible !important;
+  }
 }
 
 /* Tablet and Mobile */
@@ -53,6 +56,9 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
+  #header {
+    overflow: visible !important;
+  }
 }
 
 /* PC */
@@ -65,6 +71,9 @@
   }
   .s-mt16 {
     margin-top: 16px;
+  }
+  #header {
+    overflow: hidden;
   }
   #header .search-icon {
     display: none;
